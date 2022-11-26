@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cambios App</title>
+</head>
+
+<body>
+    <h1>Lista de Cambios</h1>
+    {% for cambio in cambios %} {{cambio.valor}} | {{cambio.criado}} <br> {% endfor %}
+</body>
+
+</html>

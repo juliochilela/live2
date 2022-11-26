@@ -1,0 +1,26 @@
+###
+POST http://127.0.0.1:5000/api/cambios/add
+Content-Type: application/json
+
+{
+    "valor": 49.4
+}
+
+
+
+
+###
+DELETE http://127.0.0.1:5000/api/cambio/delete/6
+Content-Type: application/json
+
+
+
+
+###
+PUT http://127.0.0.1:5000/api/cambio/update
+Content-Type: application/json
+
+{
+    "id": 2,
+    "valor": 21.3
+}
